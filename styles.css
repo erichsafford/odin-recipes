@@ -1,4 +1,34 @@
+body {
+    background-color: gray;
+}
+
 .header {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: red;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+}
+
+h3 {
+    background-color: lightgrey;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    font-style: italic;
+}
+
+.link {
+    color: black;
+    font-style: italic;
+    font-size: 30px;
+}
+
+#front, 
+.recipe_photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
