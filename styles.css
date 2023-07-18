@@ -1,34 +1,47 @@
 body {
-    background-color: gray;
+    background-color: #DDA15E;
+    border-color: #BC6C25;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
-.header {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: black;
-    font-weight: 700;
+img {
+    display: block;
+    width: 500px;
+    margin: 0 auto;
+    border: 10px;
+    border-style: groove;
+    border-color: #BC6C25;
+}
+
+h1 {
     text-align: center;
-}
-
-h3 {
-    background-color: lightgrey;
-    font-weight: bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-p {
-    font-style: italic;
+    border: 5px;
+    border-style: solid;
+    border-color: #BC6C25;
+    padding: 20px;
+    color: #283618;
+    font-weight: bolder;
 }
 
 .link {
-    color: black;
-    font-style: italic;
-    font-size: 30px;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+    margin-left: 35px;
+    margin-right: 35px;
+    font-size: 20px;
+    color: #283618;
 }
 
-#front, 
-.recipe_photo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+.preview {
+    width: 150px;
+    height: auto;
+    margin: 35px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    box-sizing: border-box;
 }
